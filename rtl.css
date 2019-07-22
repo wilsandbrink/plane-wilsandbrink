@@ -7,14 +7,14 @@ Description: Right-to-Left language support stylesheet
 1.0 Reset
 --------------------------------------------------------------*/
 body {
-  direction: rtl;
-  unicode-bidi: embed;
+	direction: rtl;
+	unicode-bidi: embed;
 }
 
 caption,
 th,
 td {
-  text-align: right;
+	text-align: right;
 }
 
 /*--------------------------------------------------------------
@@ -22,20 +22,20 @@ td {
 --------------------------------------------------------------*/
 ul,
 ol {
-  margin: 0 3em 1.5em 0;
+	margin: 0 3em 1.5em 0;
 }
 
 dd {
-  margin: 0 1.5em 1.5em;
+	margin: 0 1.5em 1.5em;
 }
 
 pre {
-  direction: ltr;
+	direction: ltr;
 }
 
 blockquote {
-  border-left: none;
-  border-right: 5px solid rgba(0, 0, 0, 0.05);
+	border-left: none;
+	border-right: 5px solid rgba(0, 0, 0, 0.05);
 }
 
 
@@ -47,51 +47,51 @@ blockquote {
 --------------------------------------------------------------*/
 
 .main-navigation {
-  float: right;
+	float: right;
 }
 
 .nav-menu ul {
-  padding-right: 0;
+	padding-right: 0;
 }
 
 .nav-menu ul li a:after {
-  margin-right: 6px;
+	margin-right: 6px;
 }
 
 .nav-menu ul ul li a:after {
-  content: "\f0d9";
-  float: left;
+	content: "\f0d9";
+	float: left;
 }
 
 .main-navigation ul {
-  text-align: right;
+	text-align: right;
 }
 
 .nav-menu ul ul {
-  margin-right: 20px;
+	margin-right: 20px;
 }
 
 /*--------------------------------------------------------------
 5.2 Content Navigation
 --------------------------------------------------------------*/
 .site-main [class*="navigation"] .nav-previous .meta-nav:before {
-  content: "\f054";
-  margin-left: 5px;
+	content: "\f054";
+	margin-left: 5px;
 }
 
 .site-main [class*="navigation"] .nav-next .meta-nav:after {
-  content: "\f053";
-  margin-right: 5px;
+	content: "\f053";
+	margin-right: 5px;
 }
 
 /* Single post navigation */
 .site-main .post-navigation {
-  margin: -30px 0 30px;
+	margin: -30px 0 30px;
 }
 
 /* Post pagination */
 .page-links a:first-child {
-  margin-right: 5px;
+	margin-right: 5px;
 }
 
 /*--------------------------------------------------------------
@@ -99,14 +99,14 @@ blockquote {
 --------------------------------------------------------------*/
 /* Search widget */
 .search-form .search-submit {
-  position: absolute;
-  left: 0;
-  right: auto;
+	position: absolute;
+	left: 0;
+	right: auto;
 }
 
 /* Widgets - styled lists */
 .widget ul li {
-  margin-right: 23px;
+	margin-right: 23px;
 }
 
 .widget_archive ul li:before,
@@ -120,24 +120,24 @@ blockquote {
 .widget_calendar caption:before,
 .widget_pages ul li:before,
 .widget_nav_menu ul li:before {
-  margin-right: -20px;
-  margin-left: 8px;
+	margin-right: -20px;
+	margin-left: 8px;
 }
 
 .widget_meta ul li:before,
 .widget_authors ul ul li:before {
-  content: "\f0d9";
+	content: "\f0d9";
 }
 
 /* Authors Widget */
 .widget_authors ul ul {
-  padding-right: 15px;
+	padding-right: 15px;
 }
 
 /* Authors Grid Widget */
 .widget_authors ul li,
 .widget_author_grid ul li {
-  margin-right: 0;
+	margin-right: 0;
 }
 
 /*--------------------------------------------------------------
@@ -148,17 +148,17 @@ blockquote {
 --------------------------------------------------------------*/
 /* Search Form */
 .search-toggle {
-  position: absolute;
-  left: 15px;
-  right: auto;
-  top: 0;
+	position: absolute;
+	left: 15px;
+	right: auto;
+	top: 0;
 }
 
 .search-expand {
-  position: absolute;
-  left: 15px;
-  right: auto;
-  top: 50px;
+	position: absolute;
+	left: 15px;
+	right: auto;
+	top: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -175,8 +175,8 @@ blockquote {
 .entry-meta .entry-format,
 .edit-link,
 .comment-reply {
-  margin-left: 15px;
-  margin-right: 0;
+	margin-left: 15px;
+	margin-right: 0;
 }
 
 .entry-meta .byline:before,
@@ -189,46 +189,46 @@ blockquote {
 .entry-meta .entry-format:before,
 .edit-link:before,
 .comment-reply:before {
-  margin-left: 5px;
-  margin-right: 0;
+	margin-left: 5px;
+	margin-right: 0;
 }
 
 /*--------------------------------------------------------------
 10.4 Comments
 --------------------------------------------------------------*/
 .comment .children {
-  margin: 25px 55px -15px 0;
+	margin: 25px 55px -15px 0;
 }
 
 .avatar {
-  float: right;
-  margin: 0 0 0 15px;
+	float: right;
+	margin: 0 0 0 15px;
 }
 
 .comment-footer .edit-link {
-  margin-left: 15px;
-  margin-right: 0;
+	margin-left: 15px;
+	margin-right: 0;
 }
 
 .commentlist {
-  margin: -10px 0 30px;
+	margin: -10px 0 30px;
 }
 
 /* Comment Form */
 #cancel-comment-reply-link {
-  margin-right: 10px
+	margin-right: 10px
 }
 
 #cancel-comment-reply-link:before {
-  margin-left: 3px;
+	margin-left: 3px;
 }
 
 /*--------------------------------------------------------------
 12.2 Galleries
 --------------------------------------------------------------*/
 .gallery-item {
-  float: right;
-  margin: 0 0 4px 4px;
+	float: right;
+	margin: 0 0 4px 4px;
 }
 
 .gallery-columns-1 .gallery-item:nth-of-type(1n),
@@ -240,117 +240,117 @@ blockquote {
 .gallery-columns-7 .gallery-item:nth-of-type(7n),
 .gallery-columns-8 .gallery-item:nth-of-type(8n),
 .gallery-columns-9 .gallery-item:nth-of-type(9n) {
-  margin-left: 0;
+	margin-left: 0;
 }
 
 .gallery-columns-1.gallery-size-medium figure.gallery-item:nth-of-type(1n+1),
 .gallery-columns-1.gallery-size-thumbnail figure.gallery-item:nth-of-type(1n+1),
 .gallery-columns-2.gallery-size-thumbnail figure.gallery-item:nth-of-type(2n+1),
 .gallery-columns-3.gallery-size-thumbnail figure.gallery-item:nth-of-type(3n+1) {
-  clear: right;
+	clear: right;
 }
 
 .gallery-caption {
-  position: absolute;
-  right: 0;
-  text-align: right;
+	position: absolute;
+	right: 0;
+	text-align: right;
 }
 
 .gallery-caption:before {
-  position: absolute;
-  right: 0;
+	position: absolute;
+	right: 0;
 }
 
 /*--------------------------------------------------------------
 13 Media Queries
 --------------------------------------------------------------*/
 @media only screen and (min-width: 768px) {
-  .nav-menu ul ul {
-    float: right;
-    margin-right: 0;
-    position: absolute;
-    top: 50px;
-    right: -999em;
-  }
+	.nav-menu ul ul {
+		float: right;
+		margin-right: 0;
+		position: absolute;
+		top: 50px;
+		right: -999em;
+	}
 
-  .nav-menu ul ul ul {
-    right: -999em;
-  }
+	.nav-menu ul ul ul {
+		right: -999em;
+	}
 
-  .nav-menu ul li:hover > ul,
-  .nav-menu ul li.focus > ul {
-    right: auto;
-  }
+	.nav-menu ul li:hover > ul,
+	.nav-menu ul li.focus > ul {
+		right: auto;
+	}
 
-  .nav-menu ul ul li:hover > ul,
-  .nav-menu ul ul li.focus > ul {
-    right: 100%;
-  }
+	.nav-menu ul ul li:hover > ul,
+	.nav-menu ul ul li.focus > ul {
+		right: 100%;
+	}
 
-  .site-main [class*="navigation"] .nav-previous {
-    float: right;
-  }
+	.site-main [class*="navigation"] .nav-previous {
+		float: right;
+	}
 
-  .site-main [class*="navigation"] .nav-next {
-    float: left;
-    text-align: left;
-  }
+	.site-main [class*="navigation"] .nav-next {
+		float: left;
+		text-align: left;
+	}
 
-  .footer-widget-area .widget-area {
-    float: right;
-  }
+	.footer-widget-area .widget-area {
+		float: right;
+	}
 
-  .footer-widget-area .widget-area:nth-child(1):nth-last-child(2),
-  .footer-widget-area .widget-area:nth-child(2):nth-last-child(1) {
-    margin-left: 6%;
-    margin-right: 0;
-  }
-  .footer-widget-area .widget-area:nth-child(1):nth-last-child(2):last-of-type,
-  .footer-widget-area .widget-area:nth-child(2):nth-last-child(1):last-of-type {
-    margin-left: 0;
-  }
-  .footer-widget-area .widget-area:nth-child(1):nth-last-child(3),
-  .footer-widget-area .widget-area:nth-child(2):nth-last-child(2),
-  .footer-widget-area .widget-area:nth-child(3):nth-last-child(1) {
-      margin-left: 5%;
-      margin-right: 0;
-  }
-  .footer-widget-area .widget-area:nth-child(1):nth-last-child(3):last-of-type,
-  .footer-widget-area .widget-area:nth-child(2):nth-last-child(2):last-of-type,
-  .footer-widget-area .widget-area:nth-child(3):nth-last-child(1):last-of-type {
-    margin-left: 0;
-  }
+	.footer-widget-area .widget-area:nth-child(1):nth-last-child(2),
+	.footer-widget-area .widget-area:nth-child(2):nth-last-child(1) {
+		margin-left: 6%;
+		margin-right: 0;
+	}
+	.footer-widget-area .widget-area:nth-child(1):nth-last-child(2):last-of-type,
+	.footer-widget-area .widget-area:nth-child(2):nth-last-child(1):last-of-type {
+		margin-left: 0;
+	}
+	.footer-widget-area .widget-area:nth-child(1):nth-last-child(3),
+	.footer-widget-area .widget-area:nth-child(2):nth-last-child(2),
+	.footer-widget-area .widget-area:nth-child(3):nth-last-child(1) {
+			margin-left: 5%;
+			margin-right: 0;
+	}
+	.footer-widget-area .widget-area:nth-child(1):nth-last-child(3):last-of-type,
+	.footer-widget-area .widget-area:nth-child(2):nth-last-child(2):last-of-type,
+	.footer-widget-area .widget-area:nth-child(3):nth-last-child(1):last-of-type {
+		margin-left: 0;
+	}
 
-  .footer-widget-area .widget-area:nth-child(1):nth-last-child(4),
-  .footer-widget-area .widget-area:nth-child(2):nth-last-child(3),
-  .footer-widget-area .widget-area:nth-child(3):nth-last-child(2),
-  .footer-widget-area .widget-area:nth-child(4):nth-last-child(1) {
-      margin-left: 3%;
-  }
+	.footer-widget-area .widget-area:nth-child(1):nth-last-child(4),
+	.footer-widget-area .widget-area:nth-child(2):nth-last-child(3),
+	.footer-widget-area .widget-area:nth-child(3):nth-last-child(2),
+	.footer-widget-area .widget-area:nth-child(4):nth-last-child(1) {
+			margin-left: 3%;
+	}
 
-  .footer-widget-area .widget-area:nth-child(1):nth-last-child(4):last-of-type,
-  .footer-widget-area .widget-area:nth-child(2):nth-last-child(3):last-of-type,
-  .footer-widget-area .widget-area:nth-child(3):nth-last-child(2):last-of-type,
-  .footer-widget-area .widget-area:nth-child(4):nth-last-child(1):last-of-type {
-    margin-left: 0;
-  }
+	.footer-widget-area .widget-area:nth-child(1):nth-last-child(4):last-of-type,
+	.footer-widget-area .widget-area:nth-child(2):nth-last-child(3):last-of-type,
+	.footer-widget-area .widget-area:nth-child(3):nth-last-child(2):last-of-type,
+	.footer-widget-area .widget-area:nth-child(4):nth-last-child(1):last-of-type {
+		margin-left: 0;
+	}
 
-  .site-credit {
-    text-align: left;
-  }
+	.site-credit {
+		text-align: left;
+	}
 }
 
 @media only screen and (min-width: 1024px) {
-  .content-area {
-    float: right;
-    margin: 0 0 0 -35%;
-  }
+	.content-area {
+		float: right;
+		margin: 0 0 0 -35%;
+	}
 
-  .site-main {
-    margin: 0 0 0 35%;
-  }
+	.site-main {
+		margin: 0 0 0 35%;
+	}
 
-  .site-content .widget-area {
-      float: left;
-  }
+	.site-content .widget-area {
+			float: left;
+	}
 }
