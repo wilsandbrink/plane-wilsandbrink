@@ -18,34 +18,34 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'plane' ); ?></a>
+  <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'plane' ); ?></a>
 
-	<header class="site-header" role="banner">
-			<div class="site-branding">
-				<?php plane_the_site_logo(); ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-			</div><!-- .site-branding -->
-	</header><!-- .site-header -->
+  <header class="site-header" role="banner">
+      <div class="site-branding">
+        <?php plane_the_site_logo(); ?>
+        <h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+        <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+      </div><!-- .site-branding -->
+  </header><!-- .site-header -->
 
-	<div class="owo"></div>
-	<div class="site-top">
-		<div class="content-wrapper">
-			<nav id="site-navigation" class="main-navigation" role="navigation">
-				<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><span class="screen-reader-text"><?php _e( 'Primary Menu', 'plane' ); ?></span></button>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => 'nav-menu' ) ); ?>
-			</nav><!-- #site-navigation -->
+  <div class="owo"></div>
+  <div class="site-top">
+    <div class="content-wrapper">
+      <nav id="site-navigation" class="main-navigation" role="navigation">
+        <button class="menu-toggle" aria-controls="menu" aria-expanded="false"><span class="screen-reader-text"><?php _e( 'Primary Menu', 'plane' ); ?></span></button>
+        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => 'nav-menu' ) ); ?>
+      </nav><!-- #site-navigation -->
 
-			<div class="site-search">
-				<button class="search-toggle"><span class="screen-reader-text"><?php _e( 'Search', 'plane' ); ?></span></button>
-				<div class="search-expand">
-					<div class="search-expand-inner">
-						<?php get_search_form(); ?>
-					</div>
-				</div>
-			</div><!-- .site-search -->
-		</div>
-	</div><!-- .site-top -->
+      <div class="site-search">
+        <button class="search-toggle"><span class="screen-reader-text"><?php _e( 'Search', 'plane' ); ?></span></button>
+        <div class="search-expand">
+          <div class="search-expand-inner">
+            <?php get_search_form(); ?>
+          </div>
+        </div>
+      </div><!-- .site-search -->
+    </div>
+  </div><!-- .site-top -->
 
 
-	<div id="content" class="site-content">
+  <div id="content" class="site-content">
